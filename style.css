@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --vermelho: #8E2424;
+    --bg: #ffffff;
+    --letras: #667085;
+    --titulo: #101828;
+}
+
+header{
+    background-color: bisque;
+    height: 80px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo{
+    display: flex;
+    margin-left: 112px;
+    margin-top: 26.5px;
+    align-items: center;
+    gap: 8px;
+}
+
+.navB{
+    display: flex;
+    gap: 32px;
+    width: 1262px;
+    margin-top: 26.5px;
+    margin-left: 119px;
+}
+.blank{
+    width: 142px;
+    height: 32px;
+}
+
+.login{
+    display: flex;
+    justify-content: flex-end;
+    gap: 12px;
+    margin-right: 112px;
+    margin-top: 26.5px;
+}
+
+a{
+    text-decoration: none;
+}
