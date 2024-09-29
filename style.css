@@ -158,7 +158,7 @@ a {
     line-height: 24px;
 }
 
-#vagasA {
+#anunV {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -173,13 +173,11 @@ a {
     border-radius: 16px;
 }
 
-.vagas {
+.anuncio {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-
-
 }
 
 .talentos {
@@ -194,35 +192,52 @@ a {
     margin-bottom: 64px;
 }
 
-.design {
-    display: flex;
-    justify-content: center;
-    font-size: 20px;
-    margin-bottom: 32px;
+.vagas{
+    margin-top: 84px;
+    width: 1280px;
+    height: 940px;
 }
 
-.ocupacoes {
-    text-align: left;
+.titulod{
+    margin-left: 336px;
+    margin-right: 336px;
     width: 768px;
+    height: 30px;
+    font-weight: 500;
     font-size: 20px;
+    line-height: 30px;
+    color: var(--titulo);
+    margin-bottom: 32px;
     margin-top: 64px;
 }
 
-.requisitos{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+.vagasd{
+    width: 768px;
+    height: 136px;
+    border-radius: 16px;
+    border: 1px solid #EAECF0;
+    margin: 0px 336px 24px 336px;
 }
 
-.topicos {
+.vagat{
+    margin: 24px 24px 32px 24px;
+    width: 720px;
+    height: 28px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: var(--titulo);
+}
+
+.vagai{
     display: flex;
-    justify-content: center;
-    border: 1px solid #EAECF0;
-    height: 136px;
-    width: 768px;
-    border-radius: 16px;
-    flex-direction: column;
-    margin-bottom: 24px;
-    margin-top: 24px;
+    flex-direction: row;
+    gap: 24px;
+    margin: 0px 24px 28px 24px;
+    width: 720px;
+    height: 24px;
+    color: var(--letras);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
 }
