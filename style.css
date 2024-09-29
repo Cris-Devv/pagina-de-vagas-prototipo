@@ -12,6 +12,9 @@
     --letras: #667085;
     --titulo: #101828;
     --logo: #3A404E;
+    --quad: #C3191908;
+    --bgfoot: #F9FAFB;
+    --border: #EAECF0;
 }
 
 nav {
@@ -74,7 +77,7 @@ nav {
     width: 112px;
     border-radius: 8px;
     background-color: var(--vermelho);
-    color: #ffffff;
+    color: var(--bg);
     height: 44px;
     display: flex;
     align-items: center;
@@ -196,6 +199,7 @@ a {
     margin-top: 84px;
     width: 1280px;
     height: 940px;
+    margin: 0px 80px 0px 80px;
 }
 
 .titulod{
@@ -215,7 +219,7 @@ a {
     width: 768px;
     height: 136px;
     border-radius: 16px;
-    border: 1px solid #EAECF0;
+    border: 1px solid var(--border);
     margin: 0px 336px 24px 336px;
 }
 
@@ -240,4 +244,146 @@ a {
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
+}
+
+.dev{
+    width: 1216px;
+    height: 404;
+    border-radius: 16px;
+    padding: 64px;
+    gap: 32px;
+    background-color: var(--quad);
+    margin: 96px 112px 96px 112px;
+}
+
+#deva{
+    width: 1088px;
+    height: 20px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: var(--vermelho);
+    margin-bottom: 16px;
+    margin: 0px 64px 16px 64px;
+}
+
+#devt{
+    width: 1088px;
+    height: 88px;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    color: var(--titulo);
+    margin-bottom: 32px;
+    margin: 0px 64px 32px 64px;
+}
+
+#devi{
+    width: 56px;
+    height: 56px;
+    border-radius: 200px;
+    margin: 0px 580px 16px 580px;  
+}
+
+#devn{
+    width: 1088px;
+    height: 24px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: var(--titulo);
+    margin: 0px 64px 0px 64px;
+}
+
+#devv{
+    width: 1088px;
+    height: 20px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: var(--letras);
+    margin: 0px 64px 0px 64px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 430px;
+    background-color: var(--bgfoot);
+}
+
+.newsi{
+    width: 832px;
+    height: 182px;
+    margin: 96px 336px 152px 336px;
+}
+
+.newst{
+    width: 768px;
+    height: 44px;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    color: var(--titulo);
+    margin: 96px 32px 0px 32px;
+}
+
+.newsv{
+    width: 768px;
+    height: 30px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: var(--letras);
+    margin: 20px 32px 40px 32px;
+}
+
+.newsec{
+    width: 492px;
+    height: 48px;
+    gap: 16px;
+    margin: 0px 170px 0px 170px;
+    display: flex;
+    flex-direction: row;
+}
+
+#newse{
+    width: 360px;
+    height: 48px;
+    border-radius: 8px;
+    border: 1px solid #D0D5DD;
+}
+
+::placeholder{
+    padding: 12px;
+    font-size: 16px;
+}
+
+#newsc{
+    width: 116px;
+    border-radius: 8px;
+    background-color: var(--vermelho);
+    color: var(--bg);
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.direitos{
+    width: 393px;
+    height: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #98A2B3;
+    margin: 32px 219.5px 96px 219.5px;
 }
