@@ -195,14 +195,14 @@ a {
     margin-bottom: 64px;
 }
 
-.vagas{
+.vagas {
     margin-top: 84px;
     width: 1280px;
     height: 940px;
     margin: 0px 80px 0px 80px;
 }
 
-.titulod{
+.titulod {
     margin-left: 336px;
     margin-right: 336px;
     width: 768px;
@@ -215,7 +215,7 @@ a {
     margin-top: 64px;
 }
 
-.vagasd{
+.vagasd {
     width: 768px;
     height: 136px;
     border-radius: 16px;
@@ -223,7 +223,7 @@ a {
     margin: 0px 336px 24px 336px;
 }
 
-.vagat{
+.vagat {
     margin: 24px 24px 32px 24px;
     width: 720px;
     height: 28px;
@@ -233,7 +233,7 @@ a {
     color: var(--titulo);
 }
 
-.vagai{
+.vagai {
     display: flex;
     flex-direction: row;
     gap: 24px;
@@ -246,7 +246,7 @@ a {
     line-height: 24px;
 }
 
-.dev{
+.dev {
     width: 1216px;
     height: 404;
     border-radius: 16px;
@@ -256,7 +256,7 @@ a {
     margin: 96px 112px 96px 112px;
 }
 
-#deva{
+#deva {
     width: 1088px;
     height: 20px;
     text-align: center;
@@ -268,7 +268,7 @@ a {
     margin: 0px 64px 16px 64px;
 }
 
-#devt{
+#devt {
     width: 1088px;
     height: 88px;
     font-weight: 500;
@@ -280,14 +280,20 @@ a {
     margin: 0px 64px 32px 64px;
 }
 
-#devi{
+.devii {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    gap: 30px;
+}
+
+.devi {
     width: 56px;
     height: 56px;
     border-radius: 200px;
-    margin: 0px 580px 16px 580px;  
+    margin: 0px 580px 16px 440px;
 }
 
-#devn{
+#devn {
     width: 1088px;
     height: 24px;
     font-weight: 500;
@@ -295,10 +301,10 @@ a {
     line-height: 24px;
     text-align: center;
     color: var(--titulo);
-    margin: 0px 64px 0px 64px;
+    margin: 0px 64px 0px 40px;
 }
 
-#devv{
+#devv {
     width: 1088px;
     height: 20px;
     font-weight: 400;
@@ -309,7 +315,7 @@ a {
     margin: 0px 64px 0px 64px;
 }
 
-footer{
+footer {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -318,13 +324,13 @@ footer{
     background-color: var(--bgfoot);
 }
 
-.newsi{
+.newsi {
     width: 832px;
     height: 182px;
     margin: 96px 336px 152px 336px;
 }
 
-.newst{
+.newst {
     width: 768px;
     height: 44px;
     font-weight: 600;
@@ -335,7 +341,7 @@ footer{
     margin: 96px 32px 0px 32px;
 }
 
-.newsv{
+.newsv {
     width: 768px;
     height: 30px;
     font-weight: 400;
@@ -346,7 +352,7 @@ footer{
     margin: 20px 32px 40px 32px;
 }
 
-.newsec{
+.newsec {
     width: 492px;
     height: 48px;
     gap: 16px;
@@ -355,19 +361,19 @@ footer{
     flex-direction: row;
 }
 
-#newse{
+#newse {
     width: 360px;
     height: 48px;
     border-radius: 8px;
     border: 1px solid #D0D5DD;
 }
 
-::placeholder{
+::placeholder {
     padding: 12px;
     font-size: 16px;
 }
 
-#newsc{
+#newsc {
     width: 116px;
     border-radius: 8px;
     background-color: var(--vermelho);
@@ -378,7 +384,7 @@ footer{
     justify-content: center;
 }
 
-.direitos{
+.direitos {
     width: 393px;
     height: 24px;
     font-weight: 400;
