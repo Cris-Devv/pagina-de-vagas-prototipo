@@ -88,6 +88,12 @@ a {
     text-decoration: none;
 }
 
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .titulo {
     display: flex;
     align-items: center;
